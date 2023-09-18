@@ -144,7 +144,7 @@ export default function Home() {
             ))}
 
           {/* Do something with below loader!! */}
-          {loadingMyCourses ? <Loader variant="dots" /> : ""}
+          {loadingMyCourses && <Loader variant="dots" />}
         </Paper>
         <Footer
           year="2023"
